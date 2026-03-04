@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://brbjbey4c4l3w"]
 
 [ext_resource type="Script" uid="uid://dsh6me0tnr6hl" path="res://scripts/Player.gd" id="1_tlaso"]
-[ext_resource type="Texture2D" uid="uid://c4065qphwjw2k" path="res://scenes/entities/player/still.png" id="2_afppm"]
 [ext_resource type="PackedScene" uid="uid://bkk8me2ikyhq6" path="res://scenes/entities/projectiles/Bubble.tscn" id="2_n1xdv"]
+[ext_resource type="Texture2D" uid="uid://bgp3cbvxxlpbj" path="res://assets_ai/raw/ChatGPT Image Mar 4, 2026, 03_19_37 PM.png" id="3_n1xdv"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sjmi1"]
 radius = 30.0
@@ -18,7 +18,9 @@ script = ExtResource("1_tlaso")
 bubble_scene = ExtResource("2_n1xdv")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-texture = ExtResource("2_afppm")
+position = Vector2(0, 6)
+scale = Vector2(0.11, 0.11)
+texture = ExtResource("3_n1xdv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(0, 4)
