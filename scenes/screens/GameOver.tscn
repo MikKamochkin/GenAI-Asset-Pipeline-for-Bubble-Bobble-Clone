@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://chli2v0icudv"]
+
+[ext_resource type="Script" uid="uid://cflnp5oc6j2c8" path="res://scripts/GameOver.gd" id="1_d5qkl"]
+
+[node name="GameOver" type="Node2D"]
+script = ExtResource("1_d5qkl")
+
+[node name="ResultLabel" type="Label" parent="."]
+offset_left = 523.0
+offset_top = 186.0
+offset_right = 563.0
+offset_bottom = 209.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 427.0
+offset_top = 286.0
+offset_right = 666.0
+offset_bottom = 309.0
+text = "Press R to Restart, Esc to Menu"

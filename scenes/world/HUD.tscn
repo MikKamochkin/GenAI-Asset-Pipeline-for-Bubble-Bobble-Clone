@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://xo5kgcwebcpa"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = 100.0
+offset_top = 44.0
+offset_right = 140.0
+offset_bottom = 67.0
+
+[node name="LivesLabel" type="Label" parent="."]
+offset_left = 296.0
+offset_top = 46.0
+offset_right = 336.0
+offset_bottom = 69.0

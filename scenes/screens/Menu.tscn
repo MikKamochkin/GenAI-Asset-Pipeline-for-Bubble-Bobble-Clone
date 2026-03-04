@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c155cc7whffr8"]
+
+[ext_resource type="Script" uid="uid://buyl2blqbejrb" path="res://scripts/Menu.gd" id="1_r88xi"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_r88xi")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 98.0
+offset_right = 635.0
+offset_bottom = 131.0
+text = "Press Enter to Start"
